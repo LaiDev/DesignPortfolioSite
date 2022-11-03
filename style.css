@@ -34,7 +34,7 @@ p {
   height: 48px;
 }
 
-.consultationBar button {
+.blackBtn {
   width: 176px;
   height: 44px;
   background-color: black;
@@ -98,8 +98,7 @@ p {
   height: 192px;
 }
 
-.sameLineService
-{
+.sameLineService {
   display: flex;
   gap: 25px;
 }
@@ -107,7 +106,6 @@ p {
   width: 159px;
   height: 182px;
   background-color: #f6a560;
-
 }
 
 .userInterface img,
@@ -147,4 +145,40 @@ p {
 
 .motionGraphics {
   background-color: #552049;
+}
+
+#about {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about img {
+  width: 300px;
+}
+
+.rightContent {
+  text-align: center;
+  margin-top: 40px;
+  width: 343px;
+  height: 262px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.pinkBtn {
+  width: 176px;
+  height: 44px;
+  background-color: #eb7565;
+  color: white;
+  border: none;
+  border-radius: 28px;
+  font-weight: bold;
+}
+
+.pinkBtn:hover {
+  background-color: #f6a560;
 }
