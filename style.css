@@ -43,8 +43,7 @@ p {
   border-radius: 28px;
 }
 
-.consultationBar button:hover
-{
+.consultationBar button:hover {
   background-color: #755cde;
 }
 
@@ -65,35 +64,87 @@ p {
   align-items: center;
   justify-content: center;
   margin: 16px;
+  gap: 24px;
 }
 
 #services div {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   border-radius: 8px;
 }
 
-#services img
-{
+#services img {
   align-self: flex-end;
+  margin: 24px;
 }
 
 #services div p {
   color: white;
   font-weight: bold;
   font-size: 24px;
-  
+  margin-bottom: 24px;
+  margin-left: 24px;
 }
 
 .graphicDesign {
   width: 343px;
   height: 364px;
   background-color: #755cde;
-
 }
 
 .graphicDesign img {
   width: 128px;
   height: 192px;
+}
 
+.sameLineService
+{
+  display: flex;
+  gap: 25px;
+}
+.userInterface {
+  width: 159px;
+  height: 182px;
+  background-color: #f6a560;
+
+}
+
+.userInterface img,
+.apps img {
+  width: 64px;
+}
+
+.apps {
+  width: 159px;
+  height: 182px;
+  background-color: #f39e9e;
+}
+
+.photography,
+.motionGraphics {
+  width: 343px;
+  height: 182px;
+  background-color: #61c4b7;
+}
+
+.photography img {
+  width: 160px;
+  height: 64px;
+}
+
+.illustrations {
+  width: 343px;
+  height: 158px;
+  background-color: #eb7565;
+}
+
+.illustrations img,
+.motionGraphics img {
+  width: 128px;
+  height: 64px;
+}
+
+.motionGraphics {
+  background-color: #552049;
 }
