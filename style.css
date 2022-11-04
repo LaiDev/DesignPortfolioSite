@@ -183,27 +183,38 @@ p {
   background-color: #f6a560;
 }
 
-#work h3
-{
-  margin-top: 100px;
+#work h3 {
   font-size: 24px;
 }
 
 #work {
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
-.arrows
-{
+.portfolioSlideshow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin: 32px 0px;
+  list-style-type: none;
+}
+
+.slide img {
+  width: 270px;
+  height: 180px;
+}
+
+.arrows {
   display: flex;
   gap: 16px;
 }
 
-.arrow
-{
+.arrow {
   width: 64px;
   height: 64px;
   background-color: black;
@@ -213,8 +224,12 @@ p {
   justify-content: center;
 }
 
-#contact
+.arrow:hover
 {
+  background-color: #755cde;
+}
+
+#contact {
   width: 343px;
   height: 352px;
   margin: 100px 0px 40px 0px;
@@ -230,13 +245,11 @@ p {
   text-align: center;
 }
 
-#contact h4
-{
+#contact h4 {
   font-size: 26px;
 }
 
-#contact p
-{
+#contact p {
   color: white;
   font-weight: 500px;
   margin: 24px;
