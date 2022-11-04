@@ -28,7 +28,7 @@ p {
 }
 
 .consultationBar {
-  width: 100%;
+  width: 343px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 32px;
@@ -56,17 +56,18 @@ p {
 
 #hero {
   min-width: 343px;
-  min-height: 210px;
+  height: 210px;
 
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 16px;
   text-align: center;
 }
 
 #hero p {
-  width: 285px;
+  min-width: 285px;
 }
 
 #services {
@@ -262,7 +263,130 @@ p {
 
 #contact p {
   color: white;
-  font-weight: 500px;
-  margin: 24px;
-  line-height: 26px;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 44px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .consultationBar {
+    width: 689px;
+  }
+
+  .consultationBar img {
+    width: 64px;
+    height: 64px;
+  }
+
+  .blackBtn {
+    width: 228px;
+    height: 56px;
+    font-size: 16px;
+  }
+
+  #hero {
+    width: 690px;
+    height: 138px;
+    justify-content: space-between;
+    margin-bottom: 64px;
+  }
+
+  #hero p {
+    width: 573px;
+  }
+
+  #services {
+    width: 690px;
+    height: 570px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    gap: 24;
+  }
+
+  .graphicDesign {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .sameLineService {
+    gap: 23px;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 762px;
+    height: 370px;
+    gap: 59px;
+    margin-left: -44px;
+    margin-top: 120px;
+    margin-right: 40px;
+  }
+
+  #about img {
+    width: 364px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .rightContent {
+    text-align: left;
+    width: 339px;
+    height: 364px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 0;
+  }
+
+  .pinkBtn {
+    width: 228px;
+    height: 56px;
+    font-size: 16px;
+  }
+
+  #work {
+    margin-top: 120px;
+    
+  }
+
+
+  #work h3 {
+    font-size: 32px;
+  }
+
+  .portfolioSlideshow {
+    margin: 56px 0px;
+  }
+
+  .slide img {
+    width: 540px;
+    height: 360px;
+  }
+
+  #contact {
+    margin-top: 120px;
+    margin-bottom: 56px;
+    width: 690px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #contact h4 {
+    font-size: 32px;
+  }
+
+  #contact p {
+    width: 540px;
+  }
 }
