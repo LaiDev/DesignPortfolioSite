@@ -17,9 +17,14 @@ body {
 h1 {
   font-size: 36px;
 }
+h2 {
+  font-size: 26px;
+}
 
 p {
   color: #7a746e;
+  line-height: 26px;
+  font-weight: 500;
 }
 
 .consultationBar {
@@ -41,6 +46,8 @@ p {
   color: white;
   border: none;
   border-radius: 28px;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .consultationBar button:hover {
@@ -56,6 +63,10 @@ p {
   align-items: center;
   gap: 16px;
   text-align: center;
+}
+
+#hero p {
+  width: 285px;
 }
 
 #services {
@@ -166,7 +177,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .pinkBtn {
@@ -177,6 +188,7 @@ p {
   border: none;
   border-radius: 28px;
   font-weight: bold;
+  font-size: 14px;
 }
 
 .pinkBtn:hover {
@@ -224,8 +236,7 @@ p {
   justify-content: center;
 }
 
-.arrow:hover
-{
+.arrow:hover {
   background-color: #755cde;
 }
 
@@ -241,7 +252,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   text-align: center;
 }
 
