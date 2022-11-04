@@ -253,8 +253,16 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   text-align: center;
+}
+
+.leftContent
+{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 295px;
 }
 
 #contact h4 {
@@ -264,6 +272,8 @@ p {
 #contact p {
   color: white;
 }
+
+
 
 @media (min-width: 768px) {
   h1 {
@@ -380,13 +390,16 @@ p {
     justify-content: space-evenly;
   }
 
+.leftContent
+{
+width: 540px;
+}
+
   #contact h4 {
     font-size: 32px;
   }
 
-  #contact p {
-    width: 540px;
-  }
+
 }
 
 @media (min-width: 1440px) {
